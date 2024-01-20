@@ -3,6 +3,7 @@ import './App.css';
 import Timeline from './Timeline';
 import Sidebar from './Sidebar';
 import Widget from './Widget';
+import Iconlike from './Iconlike';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Timeline />
 
     <Widget />
+    <Iconlike />
     </div>
   
   );
