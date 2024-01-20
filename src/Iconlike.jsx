@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Iconlike() {
+function Iconlike() {g
   const [favoriteCount, setFavoriteCount] = useState(0);
 
   const incrementFavoriteCount = () => {
@@ -9,14 +9,14 @@ function Iconlike() {
 
   return (
     <div className="feed">
-      {/* ... le reste de votre code ... */}
+      {/* ... le reste de mon code ... */}
       <div className="post__footer">
         <span className="material-symbols-outlined" style={{ color: 'red' }}> repeat </span>
         <span className="material-symbols-outlined" style={{ color: 'red' }} onClick={incrementFavoriteCount}> favorite_border</span>
         <span className="material-symbols-outlined" style={{ color: 'red' }}> publish </span>
         <span>{favoriteCount}</span>
       </div>
-      {/* ... le reste de votre code ... */}
+      {/* ... le reste de mon code ... */}
     </div>
   );
 }
