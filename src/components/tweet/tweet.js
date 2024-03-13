@@ -30,9 +30,9 @@ const Tweet = (props) => {
       <div id="box-tweet">
         <div id="name-id">
           <span id="flex-tweet">
-            <p id="tweet-name">ali turkaman</p>
-            <p id="tweet-id">@ATurkaman . </p>
-            <p id="tweet-date">Aug 10</p>
+            <p id="tweet-name">Ruben lubasa</p>
+            <p id="tweet-id">@rubenlubasa </p>
+            <p id="tweet-date">Mai 22</p>
           </span>
 
           <span id="span-more">
